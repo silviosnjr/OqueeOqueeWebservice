@@ -9,7 +9,7 @@ const piadas = [
   { pergunta: "O que é, o que é? Quanto mais se tira, maior fica?", resposta: "O buraco!" },
   { pergunta: "O que é, o que é? Tem no meio do ovo?", resposta: "A letra V!" }
 ];
-
+    
 // Endpoint para retornar uma piada aleatória
 app.get('/api/piada', (req, res) => {
   const piadaAleatoria = piadas[Math.floor(Math.random() * piadas.length)];

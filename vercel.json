@@ -5,5 +5,4 @@
     "routes": [
       { "src": "/(.*)", "dest": "api/piada.js" }
     ]
-  }
-  
+}
